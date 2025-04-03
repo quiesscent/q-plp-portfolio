@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
+*{
+    font-family: Bree Serif;
+}
+body{
+    background-color: white;
+}
+
+#hero {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name {
+    font-size: 80px;
+}
+.name-2 {
+    font-size: 30px;
+}
