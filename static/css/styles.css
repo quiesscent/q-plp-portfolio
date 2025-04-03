@@ -1,19 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
-*{
-    font-family: Bree Serif;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap");
+* {
+  font-family: Bree Serif;
 }
-body{
-    background-color: white;
+body {
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),url("/static/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #hero {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .name {
-    font-size: 80px;
+  font-size: 80px;
 }
 .name-2 {
-    font-size: 30px;
+  font-size: 30px;
+}
+#skills {
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+    url("/static/img/skills.jpg");
+  background-size: cover;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  background: linear-gradient(rgba(53, 53, 53, 0.5), rgba(92, 88, 88, 0.5));
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
