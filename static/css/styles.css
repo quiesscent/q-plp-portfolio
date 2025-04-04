@@ -57,3 +57,7 @@ ul li {
 .socials li {
   padding: 14px 0; /* Adds 10px top and bottom space */
 }
+.socials li a {
+  text-decoration: none;
+  color: white;
+}
