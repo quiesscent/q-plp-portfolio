@@ -2,7 +2,11 @@
 * {
   font-family: Bree Serif;
 }
-body {
+html {
+  height: 100%;
+  margin: 0;
+}
+#cv {
   background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),url("/static/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,4 +46,14 @@ ul {
 
 ul li {
   list-style-type: none;
+}
+
+.socials {
+  list-style: none; /* Optional: removes default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.socials li {
+  padding: 14px 0; /* Adds 10px top and bottom space */
 }
